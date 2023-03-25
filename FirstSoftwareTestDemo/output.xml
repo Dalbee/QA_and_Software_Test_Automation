@@ -1,85 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.0.2 (Python 3.11.1 on win32)" generated="20230325 21:31:19.438" rpa="false" schemaversion="3">
-<suite id="s1" name="Register" source="C:\Users\dalbe\PycharmProjects\FirstSoftwareTestDemo\Test\register.robot">
+<robot generator="Robot 6.0.2 (Python 3.9.7 on win32)" generated="20230325 23:30:29.803" rpa="false" schemaversion="3">
+<suite id="s1" name="Register" source="C:\Users\dalbe\PycharmProjects\QA_and_Software_Test_Automation\FirstSoftwareTestDemo\Test\register.robot">
 <test id="s1-t1" name="Test demo web shop tricents registration functionality" line="14">
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>${MainURL}</arg>
 <arg>${Browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20230325 21:31:19.597" level="INFO">Opening browser 'Chrome' to base url 'https://demowebshop.tricentis.com/'.</msg>
-<status status="PASS" starttime="20230325 21:31:19.597" endtime="20230325 21:31:22.051"/>
+<msg timestamp="20230325 23:30:30.024" level="INFO">Opening browser 'Chrome' to base url 'https://demowebshop.tricentis.com/'.</msg>
+<status status="PASS" starttime="20230325 23:30:30.024" endtime="20230325 23:30:32.679"/>
 </kw>
 <kw name="Set Selenium Speed" library="SeleniumLibrary">
 <arg>1 seconds</arg>
 <doc>Sets the delay that is waited after each Selenium command.</doc>
-<status status="PASS" starttime="20230325 21:31:22.052" endtime="20230325 21:31:22.052"/>
+<status status="PASS" starttime="20230325 23:30:32.679" endtime="20230325 23:30:32.679"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20230325 21:31:22.052" endtime="20230325 21:31:23.172"/>
+<status status="PASS" starttime="20230325 23:30:32.680" endtime="20230325 23:30:33.806"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>xpath://a[@class='ico-register']</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20230325 21:31:23.174" level="INFO">Clicking element 'xpath://a[@class='ico-register']'.</msg>
-<status status="PASS" starttime="20230325 21:31:23.172" endtime="20230325 21:31:25.533"/>
+<msg timestamp="20230325 23:30:33.807" level="INFO">Clicking element 'xpath://a[@class='ico-register']'.</msg>
+<status status="PASS" starttime="20230325 23:30:33.807" endtime="20230325 23:30:36.152"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>xpath://input[@id='gender-male']</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20230325 21:31:25.533" level="INFO">Clicking element 'xpath://input[@id='gender-male']'.</msg>
-<status status="PASS" starttime="20230325 21:31:25.533" endtime="20230325 21:31:27.570"/>
+<msg timestamp="20230325 23:30:36.153" level="INFO">Clicking element 'xpath://input[@id='gender-male']'.</msg>
+<status status="PASS" starttime="20230325 23:30:36.152" endtime="20230325 23:30:38.212"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>xpath://input[@id='gender-female']</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20230325 21:31:27.571" level="INFO">Clicking element 'xpath://input[@id='gender-female']'.</msg>
-<status status="PASS" starttime="20230325 21:31:27.571" endtime="20230325 21:31:29.614"/>
+<msg timestamp="20230325 23:30:38.213" level="INFO">Clicking element 'xpath://input[@id='gender-female']'.</msg>
+<status status="PASS" starttime="20230325 23:30:38.212" endtime="20230325 23:30:40.270"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>xpath://input[@id='FirstName']</arg>
 <arg>Daniel</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230325 21:31:29.615" level="INFO">Typing text 'Daniel' into text field 'xpath://input[@id='FirstName']'.</msg>
-<status status="PASS" starttime="20230325 21:31:29.614" endtime="20230325 21:31:32.736"/>
+<msg timestamp="20230325 23:30:40.272" level="INFO">Typing text 'Daniel' into text field 'xpath://input[@id='FirstName']'.</msg>
+<status status="PASS" starttime="20230325 23:30:40.272" endtime="20230325 23:30:43.367"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>xpath://input[@id='LastName']</arg>
 <arg>testing</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230325 21:31:32.737" level="INFO">Typing text 'testing' into text field 'xpath://input[@id='LastName']'.</msg>
-<status status="PASS" starttime="20230325 21:31:32.736" endtime="20230325 21:31:35.846"/>
+<msg timestamp="20230325 23:30:43.368" level="INFO">Typing text 'testing' into text field 'xpath://input[@id='LastName']'.</msg>
+<status status="PASS" starttime="20230325 23:30:43.368" endtime="20230325 23:30:46.458"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>xpath://input[@id='Email']</arg>
 <arg>testing@gmail.com</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230325 21:31:35.846" level="INFO">Typing text 'testing@gmail.com' into text field 'xpath://input[@id='Email']'.</msg>
-<status status="PASS" starttime="20230325 21:31:35.846" endtime="20230325 21:31:38.939"/>
+<msg timestamp="20230325 23:30:46.459" level="INFO">Typing text 'testing@gmail.com' into text field 'xpath://input[@id='Email']'.</msg>
+<status status="PASS" starttime="20230325 23:30:46.458" endtime="20230325 23:30:49.543"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>xpath://input[@id='Password']</arg>
 <arg>testing</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230325 21:31:38.940" level="INFO">Typing text 'testing' into text field 'xpath://input[@id='Password']'.</msg>
-<status status="PASS" starttime="20230325 21:31:38.939" endtime="20230325 21:31:42.016"/>
+<msg timestamp="20230325 23:30:49.545" level="INFO">Typing text 'testing' into text field 'xpath://input[@id='Password']'.</msg>
+<status status="PASS" starttime="20230325 23:30:49.544" endtime="20230325 23:30:52.646"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>xpath://input[@id='ConfirmPassword']</arg>
 <arg>testing</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230325 21:31:42.017" level="INFO">Typing text 'testing' into text field 'xpath://input[@id='ConfirmPassword']'.</msg>
-<status status="PASS" starttime="20230325 21:31:42.016" endtime="20230325 21:31:45.114"/>
+<msg timestamp="20230325 23:30:52.647" level="INFO">Typing text 'testing' into text field 'xpath://input[@id='ConfirmPassword']'.</msg>
+<status status="PASS" starttime="20230325 23:30:52.647" endtime="20230325 23:30:55.724"/>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20230325 21:31:45.114" endtime="20230325 21:31:48.258"/>
+<status status="PASS" starttime="20230325 23:30:55.725" endtime="20230325 23:30:58.827"/>
 </kw>
 <tag>Regression</tag>
-<status status="PASS" starttime="20230325 21:31:19.596" endtime="20230325 21:31:48.258"/>
+<status status="PASS" starttime="20230325 23:30:30.024" endtime="20230325 23:30:58.828"/>
 </test>
 <doc>To test login page</doc>
-<status status="PASS" starttime="20230325 21:31:19.439" endtime="20230325 21:31:48.259"/>
+<status status="PASS" starttime="20230325 23:30:29.805" endtime="20230325 23:30:58.829"/>
 </suite>
 <statistics>
 <total>
