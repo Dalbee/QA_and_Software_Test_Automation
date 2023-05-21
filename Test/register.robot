@@ -14,7 +14,7 @@ ${MainUrl5}  https://www.tutorialspoint.com/index.htm
 Test demo web shop tricents registration functionality
     [Tags]     Regression
     Open Browser    ${MainURL}   ${Browser}
-    Set Selenium speed  1 seconds
+    Set Selenium speed  5 seconds
     Maximize Browser Window
 
     # Click Element
