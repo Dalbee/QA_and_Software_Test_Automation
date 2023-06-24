@@ -14,7 +14,7 @@ ${MainUrl5}  https://www.tutorialspoint.com/index.htm
 Test demo web shop tricents registration functionality
     [Tags]     Regression
     Open Browser    ${MainURL}   ${Browser}
-    Set Selenium speed  5 seconds
+    Set Selenium speed  1 seconds
     Maximize Browser Window
 
     # Click Element
@@ -22,12 +22,16 @@ Test demo web shop tricents registration functionality
     Click Element  xpath://input[@id='gender-male']
     Click Element  xpath://input[@id='gender-female']
 
+    Capture Page Screenshot
+
     # Input Text
     Input Text  xpath://input[@id='FirstName']   Daniel
     Input Text  xpath://input[@id='LastName']  testing
     Input Text  xpath://input[@id='Email']  testing@gmail.com
     Input Text  xpath://input[@id='Password']  testing
     Input Text  xpath://input[@id='ConfirmPassword']  testing
+
+    Capture Page Screenshot
     close browser
 *** Keywords ***
 
